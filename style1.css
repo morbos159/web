@@ -1,0 +1,245 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: century;
+ }   
+ .main{
+   background-image: linear-gradient(to bottom,#009F6F,#005157);
+   background-size: cover;
+   max-width: 100%;
+   height: 200vh;
+   }
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 70px;
+    min-height: 400px;
+    margin-left: 150px;
+    font-size: 25px;
+ }
+
+ul li {
+    display: inline-block;
+ } 
+
+ul li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    padding: 30px;
+
+}
+
+ul li a:after{
+    content: "  ";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+   width: 0;
+   left: 0;
+   bottom: 2px;
+   transition: 0.3s;
+ 
+ }
+ul li a:hover{
+  color: #ffffff;
+}
+ul li a:hover:after{
+   width: 100%;
+}  
+
+.navar{
+    max-width: 100%;
+    background-color: #005239;
+    background-position: center;
+    background-size: auto;
+    height: 22vh;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    color: #005239;
+    font-size: 25px;
+ }
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 29%;
+    margin-left: 29%;
+    top: 30%;
+    color:black;
+    font-size: 45px;
+}
+.par {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 40%;
+    color: white;
+    font-size: 18px;
+}
+.para{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    color: #005239;
+    font-size: 25px;
+    font-weight: bold;
+}
+.parag{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 29%;
+    margin-left: 29%;
+    top: 60%;
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.paragr{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 75%;
+    color: white;
+    font-size: 18px;
+}
+.paragra{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    color: #005239;
+    font-size: 25px;
+    font-weight: bold;
+}
+.paragrap{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 29%;
+    margin-left: 29%;
+    top: 100%;
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.paragraph{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 115%;
+    color: white;
+    font-size: 18px;
+}
+.paragraph1{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    top: 130%;
+    color: #005239;
+    font-size: 25px;
+    font-weight: bold;
+}
+.paragraph2{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 29%;
+    margin-left: 29%;
+    top: 135%;
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.paragraph3{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 150%;
+    color: white;
+    font-size: 18px;
+}
+.paragraph4{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 170%;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.btn {
+    font-family: sans-serif;
+   border: none;
+   background-color: yellow;
+   width: 150px;
+   height: 50px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 black;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+  position: absolute;
+  top: 185%;
+   right: 45%;
+} 
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 white;
+}
